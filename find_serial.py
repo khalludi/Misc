@@ -1,7 +1,6 @@
 import serial
 
 s = serial.Serial("/dev/ttyAMA0", baudrate=38400, timeout=1)
-hexd = list("0123456789ABCDEF")
 
 def getSerial():
 
