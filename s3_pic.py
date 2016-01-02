@@ -1,7 +1,7 @@
 import boto, logging
 
-AWS_ACCESS_KEY = "AKIAJIYTLBO7QT5ESB6Q"
-AWS_SECRET_KEY = "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"
+#AWS_ACCESS_KEY = "AKIAJIYTLBO7QT5ESB6Q"
+#AWS_SECRET_KEY = "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"
 bucket_name = "home-pic231" 
 
 def push_picture_to_s3(id):
